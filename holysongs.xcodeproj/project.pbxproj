@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35B7C9651810615C00A3BAD4 /* LyricViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B7C9641810615C00A3BAD4 /* LyricViewController.m */; };
+		35CF0F5F1814781B0008B11D /* ChineseString.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CF0F5E1814781B0008B11D /* ChineseString.m */; };
+		35E69577182F0B0E00680948 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E69576182F0B0E00680948 /* Reachability.m */; };
+		35E7FAC1182EF73200F1C4F4 /* VideoSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E7FAC0182EF73200F1C4F4 /* VideoSearchViewController.m */; };
 		35F8AF70180998C3005F7F51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35F8AF6F180998C3005F7F51 /* Foundation.framework */; };
 		35F8AF72180998C3005F7F51 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35F8AF71180998C3005F7F51 /* CoreGraphics.framework */; };
 		35F8AF74180998C3005F7F51 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35F8AF73180998C3005F7F51 /* UIKit.framework */; };
@@ -14,7 +18,6 @@
 		35F8AF7C180998C3005F7F51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F8AF7B180998C3005F7F51 /* main.m */; };
 		35F8AF80180998C3005F7F51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F8AF7F180998C3005F7F51 /* AppDelegate.m */; };
 		35F8AF83180998C3005F7F51 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35F8AF81180998C3005F7F51 /* Main_iPhone.storyboard */; };
-		35F8AF86180998C3005F7F51 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35F8AF84180998C3005F7F51 /* Main_iPad.storyboard */; };
 		35F8AF89180998C3005F7F51 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F8AF88180998C3005F7F51 /* ViewController.m */; };
 		35F8AF8B180998C3005F7F51 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35F8AF8A180998C3005F7F51 /* Images.xcassets */; };
 		35F8AF92180998C3005F7F51 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35F8AF91180998C3005F7F51 /* XCTest.framework */; };
@@ -22,6 +25,15 @@
 		35F8AF94180998C4005F7F51 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35F8AF73180998C3005F7F51 /* UIKit.framework */; };
 		35F8AF9C180998C4005F7F51 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 35F8AF9A180998C4005F7F51 /* InfoPlist.strings */; };
 		35F8AF9E180998C4005F7F51 /* holysongsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F8AF9D180998C4005F7F51 /* holysongsTests.m */; };
+		35FA17B21811EA6C000205A7 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 35FA17B11811EA6C000205A7 /* libxml2.dylib */; };
+		35FA17BB1811EEC1000205A7 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FA17BA1811EEC1000205A7 /* GDataXMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		35FA17BC1811EEC1000205A7 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FA17BA1811EEC1000205A7 /* GDataXMLNode.m */; };
+		35FA17BE1811F20E000205A7 /* songs.xml in Resources */ = {isa = PBXBuildFile; fileRef = 35FA17BD1811F20E000205A7 /* songs.xml */; };
+		35FA17BF1811F20E000205A7 /* songs.xml in Resources */ = {isa = PBXBuildFile; fileRef = 35FA17BD1811F20E000205A7 /* songs.xml */; };
+		35FA17C418123916000205A7 /* pinyin.c in Sources */ = {isa = PBXBuildFile; fileRef = 35FA17C018123916000205A7 /* pinyin.c */; };
+		35FA17C518123916000205A7 /* pinyin.c in Sources */ = {isa = PBXBuildFile; fileRef = 35FA17C018123916000205A7 /* pinyin.c */; };
+		35FA17C618123916000205A7 /* POAPinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FA17C318123916000205A7 /* POAPinyin.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		35FA17C718123916000205A7 /* POAPinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FA17C318123916000205A7 /* POAPinyin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +47,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		35B7C9601810600D00A3BAD4 /* LyricViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LyricViewController.h; sourceTree = "<group>"; };
+		35B7C9641810615C00A3BAD4 /* LyricViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LyricViewController.m; sourceTree = "<group>"; };
+		35CF0F5D1814781B0008B11D /* ChineseString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseString.h; sourceTree = "<group>"; };
+		35CF0F5E1814781B0008B11D /* ChineseString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChineseString.m; sourceTree = "<group>"; };
+		35E69575182F0B0E00680948 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		35E69576182F0B0E00680948 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		35E7FABF182EF73200F1C4F4 /* VideoSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VideoSearchViewController.h; path = ../VideoSearchViewController.h; sourceTree = "<group>"; };
+		35E7FAC0182EF73200F1C4F4 /* VideoSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VideoSearchViewController.m; path = ../VideoSearchViewController.m; sourceTree = "<group>"; };
 		35F8AF6C180998C3005F7F51 /* holysongs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = holysongs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35F8AF6F180998C3005F7F51 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		35F8AF71180998C3005F7F51 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -46,7 +66,6 @@
 		35F8AF7E180998C3005F7F51 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		35F8AF7F180998C3005F7F51 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		35F8AF82180998C3005F7F51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		35F8AF85180998C3005F7F51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		35F8AF87180998C3005F7F51 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		35F8AF88180998C3005F7F51 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		35F8AF8A180998C3005F7F51 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -55,6 +74,14 @@
 		35F8AF99180998C4005F7F51 /* holysongsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "holysongsTests-Info.plist"; sourceTree = "<group>"; };
 		35F8AF9B180998C4005F7F51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		35F8AF9D180998C4005F7F51 /* holysongsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = holysongsTests.m; sourceTree = "<group>"; };
+		35FA17B11811EA6C000205A7 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		35FA17B91811EEC1000205A7 /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
+		35FA17BA1811EEC1000205A7 /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
+		35FA17BD1811F20E000205A7 /* songs.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = songs.xml; sourceTree = "<group>"; };
+		35FA17C018123916000205A7 /* pinyin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pinyin.c; sourceTree = "<group>"; };
+		35FA17C118123916000205A7 /* pinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pinyin.h; sourceTree = "<group>"; };
+		35FA17C218123916000205A7 /* POAPinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POAPinyin.h; sourceTree = "<group>"; };
+		35FA17C318123916000205A7 /* POAPinyin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POAPinyin.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35FA17B21811EA6C000205A7 /* libxml2.dylib in Frameworks */,
 				35F8AF72180998C3005F7F51 /* CoreGraphics.framework in Frameworks */,
 				35F8AF74180998C3005F7F51 /* UIKit.framework in Frameworks */,
 				35F8AF70180998C3005F7F51 /* Foundation.framework in Frameworks */,
@@ -103,6 +131,7 @@
 		35F8AF6E180998C3005F7F51 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				35FA17B11811EA6C000205A7 /* libxml2.dylib */,
 				35F8AF6F180998C3005F7F51 /* Foundation.framework */,
 				35F8AF71180998C3005F7F51 /* CoreGraphics.framework */,
 				35F8AF73180998C3005F7F51 /* UIKit.framework */,
@@ -114,12 +143,26 @@
 		35F8AF75180998C3005F7F51 /* holysongs */ = {
 			isa = PBXGroup;
 			children = (
+				35E7FABF182EF73200F1C4F4 /* VideoSearchViewController.h */,
+				35E7FAC0182EF73200F1C4F4 /* VideoSearchViewController.m */,
+				35E69575182F0B0E00680948 /* Reachability.h */,
+				35E69576182F0B0E00680948 /* Reachability.m */,
+				35FA17BD1811F20E000205A7 /* songs.xml */,
+				35FA17C018123916000205A7 /* pinyin.c */,
+				35FA17C118123916000205A7 /* pinyin.h */,
+				35FA17C218123916000205A7 /* POAPinyin.h */,
+				35FA17C318123916000205A7 /* POAPinyin.m */,
+				35FA17B91811EEC1000205A7 /* GDataXMLNode.h */,
+				35FA17BA1811EEC1000205A7 /* GDataXMLNode.m */,
 				35F8AF7E180998C3005F7F51 /* AppDelegate.h */,
 				35F8AF7F180998C3005F7F51 /* AppDelegate.m */,
 				35F8AF81180998C3005F7F51 /* Main_iPhone.storyboard */,
-				35F8AF84180998C3005F7F51 /* Main_iPad.storyboard */,
+				35B7C9601810600D00A3BAD4 /* LyricViewController.h */,
+				35B7C9641810615C00A3BAD4 /* LyricViewController.m */,
 				35F8AF87180998C3005F7F51 /* ViewController.h */,
 				35F8AF88180998C3005F7F51 /* ViewController.m */,
+				35CF0F5D1814781B0008B11D /* ChineseString.h */,
+				35CF0F5E1814781B0008B11D /* ChineseString.m */,
 				35F8AF8A180998C3005F7F51 /* Images.xcassets */,
 				35F8AF76180998C3005F7F51 /* Supporting Files */,
 			);
@@ -231,10 +274,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35F8AF86180998C3005F7F51 /* Main_iPad.storyboard in Resources */,
 				35F8AF8B180998C3005F7F51 /* Images.xcassets in Resources */,
 				35F8AF83180998C3005F7F51 /* Main_iPhone.storyboard in Resources */,
 				35F8AF7A180998C3005F7F51 /* InfoPlist.strings in Resources */,
+				35FA17BE1811F20E000205A7 /* songs.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +285,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35FA17BF1811F20E000205A7 /* songs.xml in Resources */,
 				35F8AF9C180998C4005F7F51 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,8 +297,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35CF0F5F1814781B0008B11D /* ChineseString.m in Sources */,
+				35FA17C618123916000205A7 /* POAPinyin.m in Sources */,
+				35E7FAC1182EF73200F1C4F4 /* VideoSearchViewController.m in Sources */,
+				35FA17C418123916000205A7 /* pinyin.c in Sources */,
+				35E69577182F0B0E00680948 /* Reachability.m in Sources */,
 				35F8AF89180998C3005F7F51 /* ViewController.m in Sources */,
 				35F8AF80180998C3005F7F51 /* AppDelegate.m in Sources */,
+				35FA17BB1811EEC1000205A7 /* GDataXMLNode.m in Sources */,
+				35B7C9651810615C00A3BAD4 /* LyricViewController.m in Sources */,
 				35F8AF7C180998C3005F7F51 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,7 +314,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35FA17C518123916000205A7 /* pinyin.c in Sources */,
+				35FA17C718123916000205A7 /* POAPinyin.m in Sources */,
 				35F8AF9E180998C4005F7F51 /* holysongsTests.m in Sources */,
+				35FA17BC1811EEC1000205A7 /* GDataXMLNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,14 +348,6 @@
 			name = Main_iPhone.storyboard;
 			sourceTree = "<group>";
 		};
-		35F8AF84180998C3005F7F51 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				35F8AF85180998C3005F7F51 /* Base */,
-			);
-			name = Main_iPad.storyboard;
-			sourceTree = "<group>";
-		};
 		35F8AF9A180998C4005F7F51 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -316,7 +362,7 @@
 		35F8AF9F180998C4005F7F51 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -356,7 +402,7 @@
 		35F8AFA0180998C4005F7F51 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -394,8 +440,18 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "holysongs/holysongs-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/include/libxml2,
+				);
 				INFOPLIST_FILE = "holysongs/holysongs-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "";
+				VERSIONING_SYSTEM = "apple-generic";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -407,8 +463,18 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "holysongs/holysongs-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/include/libxml2,
+				);
 				INFOPLIST_FILE = "holysongs/holysongs-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "";
+				VERSIONING_SYSTEM = "apple-generic";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -474,6 +540,7 @@
 				35F8AFA3180998C4005F7F51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		35F8AFA4180998C4005F7F51 /* Build configuration list for PBXNativeTarget "holysongsTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +549,7 @@
 				35F8AFA6180998C4005F7F51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
