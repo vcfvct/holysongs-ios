@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface VideoSearchViewController : UIViewController
+@interface VideoSearchViewController : UIViewController<UIWebViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UIWebView *searchWebView;
 @property (nonatomic, strong) NSString *urlString;
+@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *activityIndicator;
 
 @end

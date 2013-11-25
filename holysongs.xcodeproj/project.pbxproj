@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35A862461843174600F9DBCE /* VideoSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A862451843174600F9DBCE /* VideoSearchViewController.m */; };
 		35B7C9651810615C00A3BAD4 /* LyricViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B7C9641810615C00A3BAD4 /* LyricViewController.m */; };
 		35CF0F5F1814781B0008B11D /* ChineseString.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CF0F5E1814781B0008B11D /* ChineseString.m */; };
 		35E69577182F0B0E00680948 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E69576182F0B0E00680948 /* Reachability.m */; };
-		35E7FAC1182EF73200F1C4F4 /* VideoSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E7FAC0182EF73200F1C4F4 /* VideoSearchViewController.m */; };
 		35F8AF70180998C3005F7F51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35F8AF6F180998C3005F7F51 /* Foundation.framework */; };
 		35F8AF72180998C3005F7F51 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35F8AF71180998C3005F7F51 /* CoreGraphics.framework */; };
 		35F8AF74180998C3005F7F51 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35F8AF73180998C3005F7F51 /* UIKit.framework */; };
@@ -47,14 +47,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		35A862441843174600F9DBCE /* VideoSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoSearchViewController.h; sourceTree = "<group>"; };
+		35A862451843174600F9DBCE /* VideoSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoSearchViewController.m; sourceTree = "<group>"; };
 		35B7C9601810600D00A3BAD4 /* LyricViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LyricViewController.h; sourceTree = "<group>"; };
 		35B7C9641810615C00A3BAD4 /* LyricViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LyricViewController.m; sourceTree = "<group>"; };
 		35CF0F5D1814781B0008B11D /* ChineseString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseString.h; sourceTree = "<group>"; };
 		35CF0F5E1814781B0008B11D /* ChineseString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChineseString.m; sourceTree = "<group>"; };
 		35E69575182F0B0E00680948 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		35E69576182F0B0E00680948 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
-		35E7FABF182EF73200F1C4F4 /* VideoSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VideoSearchViewController.h; path = ../VideoSearchViewController.h; sourceTree = "<group>"; };
-		35E7FAC0182EF73200F1C4F4 /* VideoSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VideoSearchViewController.m; path = ../VideoSearchViewController.m; sourceTree = "<group>"; };
 		35F8AF6C180998C3005F7F51 /* holysongs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = holysongs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35F8AF6F180998C3005F7F51 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		35F8AF71180998C3005F7F51 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -143,8 +143,8 @@
 		35F8AF75180998C3005F7F51 /* holysongs */ = {
 			isa = PBXGroup;
 			children = (
-				35E7FABF182EF73200F1C4F4 /* VideoSearchViewController.h */,
-				35E7FAC0182EF73200F1C4F4 /* VideoSearchViewController.m */,
+				35A862441843174600F9DBCE /* VideoSearchViewController.h */,
+				35A862451843174600F9DBCE /* VideoSearchViewController.m */,
 				35E69575182F0B0E00680948 /* Reachability.h */,
 				35E69576182F0B0E00680948 /* Reachability.m */,
 				35FA17BD1811F20E000205A7 /* songs.xml */,
@@ -299,7 +299,6 @@
 			files = (
 				35CF0F5F1814781B0008B11D /* ChineseString.m in Sources */,
 				35FA17C618123916000205A7 /* POAPinyin.m in Sources */,
-				35E7FAC1182EF73200F1C4F4 /* VideoSearchViewController.m in Sources */,
 				35FA17C418123916000205A7 /* pinyin.c in Sources */,
 				35E69577182F0B0E00680948 /* Reachability.m in Sources */,
 				35F8AF89180998C3005F7F51 /* ViewController.m in Sources */,
@@ -307,6 +306,7 @@
 				35FA17BB1811EEC1000205A7 /* GDataXMLNode.m in Sources */,
 				35B7C9651810615C00A3BAD4 /* LyricViewController.m in Sources */,
 				35F8AF7C180998C3005F7F51 /* main.m in Sources */,
+				35A862461843174600F9DBCE /* VideoSearchViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

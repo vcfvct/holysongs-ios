@@ -49,7 +49,7 @@
     self.menuList = @[@"youtube搜索", @"优酷搜索", @"土豆搜索"];
     self.urlList = @[@"http://m.youtube.com/results?q=", @"http://www.soku.com/m/y/video?q=", @"http://www.soku.com/m/t/video?q="];
     [searchTableView reloadData];
-    searchView.hidden = YES;
+
     
     UISwipeGestureRecognizer *swipeLeftGestureRecognizer = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(openDrawer)];
     swipeLeftGestureRecognizer.direction = UISwipeGestureRecognizerDirectionLeft;
@@ -81,15 +81,26 @@
 }
 
 - (void)openDrawer {
-    [UIView transitionWithView:searchView duration:0.5 options:UIViewAnimationOptionTransitionFlipFromRight animations:NULL completion:NULL];
-    searchView.hidden = NO;
+
+    [UIView animateWithDuration:.5f animations:^{searchView.center = CGPointMake(240, 315);}];
+    [self setBackgroundAlpha];
     isOpen = true;
 }
 
 - (void)closeDrawer {
-    [UIView transitionWithView:searchView duration:0.5 options:UIViewAnimationOptionTransitionFlipFromLeft animations:NULL completion:NULL];
-    searchView.hidden = YES;
+    [UIView animateWithDuration:.5f animations:^{searchView.center = CGPointMake(500, 315);}];
+    [self clearBackgroundAlpha];
     isOpen = false;
+}
+
+-(void)setBackgroundAlpha{
+    textView.alpha = .2f;
+    songNameLabel.alpha = .2f;
+}
+
+-(void)clearBackgroundAlpha{
+    textView.alpha = 1.0f;
+    songNameLabel.alpha = 1.0f;
 }
 
 

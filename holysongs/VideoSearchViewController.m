@@ -16,6 +16,7 @@
 
 @synthesize urlString;
 @synthesize searchWebView;
+@synthesize activityIndicator;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -30,6 +31,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    searchWebView.delegate = self;
     
     NSURL *url = [[NSURL alloc] initWithString: [urlString stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
@@ -41,6 +43,24 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma spinner
+- (void)webViewDidStartLoad:(UIWebView *)searchWebView {
+    
+    [ activityIndicator startAnimating];
+}
+
+- (void)webView:(UIWebView *)searchWebView didFailLoadWithError:(NSError *)error {
+    
+    [activityIndicator stopAnimating];
+    
+}
+
+- (void)webViewDidFinishLoad:(UIWebView *)searchWebView {
+    
+    [activityIndicator stopAnimating];
+    activityIndicator.hidden = YES;
 }
 
 @end
